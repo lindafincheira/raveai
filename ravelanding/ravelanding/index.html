@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <title>RAVE Music 2023</title>
+        <link rel="stylesheet" href="css/principal.css"> 
+
+        <!-- lo de arriba es para conectar a la carpeta css-->
+    </head>
+    <body class="bg-black">
+
+        <!--Encabezado-->
+        <div id="Encabezado" class="colorRave bg-gradient bg-black h-auto">
+          ¡Únete a nosotros en este viaje musical intenso y emocionante!
+        </div>
+
+        <!--Menú de navegación-->
+        <nav class="navbar bg-black align-items-start z-1">
+          <div class="container h-100">
+            <a class="mx-auto d-block mx-sm-0" href="#">
+              <img src="img/logo.jpeg" alt="Bootstrap" width="200" height="200">
+            </a>
+            <ul class="navbar-nav rounded-5 bg-gradient px-3 gap-lg-5 flex-column flex-sm-row">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#acercade">Acerca de Rave</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!--Carrusel-->
+        <div class="w-100">
+          <div id="banner-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.ytimg.com/vi/J-zILhdIpXA/maxresdefault.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F30caec62-d715-11ea-b191-4a02022fcddf.jpg?crop=2250%2C1500%2C0%2C0" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.shopify.com/s/files/1/0385/6229/files/thumbnail_43c91835-c184-4fa6-bfcb-108f15400424.jpg?v=1474048592" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner-carousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#banner-carousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </a>
+          </div>
+        </div>
+
+        <!--Informacion-->
+        <div class="container text-center" id="acercade">
+          <h3 class="py-5 colorRave">Organización de conciertos, música urbana (Rave)</h3>
+          <p class="py-3 text-white">Bienvenido a nuestra página web dedicada a la música de dark techno. Aquí podrás descubrir un universo sonoro único y oscuro, creado por algunos de los artistas más talentosos y vanguardistas del género. Nuestra misión es llevar la experiencia musical al siguiente nivel, transportándote a un estado de trance profundo y emocionante, lleno de texturas sonoras complejas, ritmos intensos y atmósferas inmersivas. Explora nuestra selección de artistas, eventos y noticias, y descubre por ti mismo el poder de la música de dark techno.</p>
+        </div>
+
+        <!--Pestañas-->
+        <div class="container" id="servicios">
+          <h2 class="text-center mb-4 colorRave">Nuestros servicios</h2>
+        
+          <ul class="nav nav-pills nav-fill mb-4" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active colorRave" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-web" aria-selected="true">Organización de conciertos</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link colorRave" id="pills-social-tab" data-bs-toggle="pill" data-bs-target="#pills-social" type="button" role="tab" aria-controls="pills-social" aria-selected="false">Streaming musical</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link colorRave" id="pills-marketing-tab" data-bs-toggle="pill" data-bs-target="#pills-marketing" type="button" role="tab" aria-controls="pills-marketing" aria-selected="false">Descarga de canciones</button>
+            </li>
+          </ul>
+        
+          <div class="tab-content text-white" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="https://cdn.shopify.com/s/files/1/0385/6229/files/thumbnail_43c91835-c184-4fa6-bfcb-108f15400424.jpg?v=1474048592" alt="Diseño web" class="img-fluid h-75 rounded-3 float-end">
+                </div>
+                <div class="col-md-6">
+                  <h3>Organización de conciertos</h3>
+                  <ul>
+                    <li>
+                      Organizamos eventos en los lugares más exclusivos de la ciudad, con una producción de luces y sonido de primera calidad para brindarte una experiencia única.
+                    </li>
+                    <li>
+                      Contamos con un equipo de profesionales en la organización de eventos de música urbana, quienes se encargan de todos los detalles para que tu concierto sea todo un éxito.
+                    </li>
+                    <li>
+                      Nos encargamos de la promoción y difusión de tu concierto, utilizando estrategias innovadoras y efectivas para llegar a tu público objetivo.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-social" role="tabpanel" aria-labelledby="pills-social-tab">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="https://i.shgcdn.com/5a4e48c5-b162-4bc1-8f86-598f43554655/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="Diseño web" class="img-fluid h-75 rounded-3 float-end">
+                </div>
+                <div class="col-md-6">
+                  <h3>Streaming online de música</h3>
+                  <ul>
+                    <li>
+                      Disfruta de la mejor música urbana en streaming las 24 horas del día, desde cualquier dispositivo y en cualquier lugar del mundo.
+                    </li>
+                    <li>
+                      Te ofrecemos una plataforma de streaming musical exclusiva para amantes de la música urbana, con listas de reproducción actualizadas y personalizadas según tus gustos.
+                    </li>
+                    <li>
+                      Nuestro streaming musical cuenta con una calidad de audio superior, para que disfrutes de tu música favorita como si estuvieras en un concierto en vivo.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-marketing" role="tabpanel" aria-labelledby="pills-marketing-tab">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="https://sm.pcmag.com/pcmag_me/feature/t/the-best-f/the-best-free-music-download-sites_f2gp.jpg" alt="Diseño web" class="img-fluid h-75 rounded-3 float-end">
+                </div>
+                <div class="col-md-6">
+                  <h3>Descarga directa de canciones</h3>
+                  <ul>
+                    <li>
+                      Descarga las últimas canciones de tus artistas favoritos de música urbana en alta calidad, para que las escuches donde quieras y cuando quieras.
+                    </li>
+                    <li>
+                      Nuestro catálogo de canciones es amplio y variado, incluyendo los temas más populares del momento y los éxitos de siempre.
+                    </li>
+                    <li>
+                      Además de la descarga de canciones, te ofrecemos información detallada sobre los artistas de música urbana, incluyendo biografías, discografías y noticias relevantes.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Formulario de contacto-->
+        <section id="contacto" class="fondoRave pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <div class="section-title">
+                  <h2 class="text-center py-5">Envíanos un mensaje</h2>
+                </div>
+                <form id="contact-form" action="#" method="post">
+                  <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block mt-4">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    </body>
+</html>

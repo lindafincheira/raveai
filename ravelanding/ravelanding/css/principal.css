@@ -1,0 +1,64 @@
+/*-- Fondo de color gris(listo)
+-- Texto alineado al centro (listo)
+-- Familia tipo verdana(listo)
+-- tamaño de texto 16 pixeles(listo)
+-- separacion interna de la parte superior de 10 pixeles(listo)
+-- color de texto gris(listo)
+-- tamaño de contenedor de 25 pixeles(listo)
+*/
+:root {
+    --raveColor: #0fc868; 
+}
+
+.fondoRave {
+    background-color: var(--raveColor);
+}
+
+.colorRave {
+    color: var(--raveColor);
+}
+
+.mt-n3 {
+    margin-top: -3rem;
+  }
+
+#banner-carousel {
+  background-color: #000000;
+}
+
+.carousel-inner {
+  height: 500px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#encabezado {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    height: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#niveles-academicos {
+    padding-top: 50px;
+    background-color: #e4792e;
+    height: 300px;
+    color: #fff;
+}
+
+#carta {
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
